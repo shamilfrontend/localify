@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultLayout should match snapshot 1`] = `
+<div class="app">
+  <the-header-stub></the-header-stub>
+  <nuxt-stub></nuxt-stub>
+</div>
+`;
+
+exports[`layoutDefault element should match snapshot 1`] = `
+<div
+  class="app"
+>
+  <the-header-stub />
+   
+  <nuxt-stub />
+</div>
+`;

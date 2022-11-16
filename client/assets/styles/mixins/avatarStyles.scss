@@ -1,0 +1,18 @@
+@mixin avatarStyles($width: 40px, $height: 40px) {
+  width: $width;
+  min-width: $width;
+  height: $height;
+
+  font-weight: 600;
+  font-size: 12px;
+  font-style: normal;
+  line-height: $height - 4px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  background-color: #485d74;
+  border: 2px solid #F4F5F7;
+  border-radius: 50%;
+  user-select: none;
+}

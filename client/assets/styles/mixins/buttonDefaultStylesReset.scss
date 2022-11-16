@@ -1,0 +1,12 @@
+@mixin buttonDefaultStylesReset() {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  text-align: left;
+
+  &:focus {
+    outline: none;
+  }
+}

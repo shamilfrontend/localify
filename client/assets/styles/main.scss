@@ -1,0 +1,42 @@
+@import "./base";
+
+html {
+  body {
+    .el-checkbox {
+      &__inner {
+        width: 16px;
+        height: 16px;
+        background-color: #FAFBFC;
+        border: 1px solid #C1C7D0;
+        border-radius: 3px;
+
+        &::after {
+          left: 5px;
+          top: 3px;
+        }
+      }
+    }
+
+    .el-select.custom-full-width {
+      width: 100%;
+    }
+
+    .el-form-item {
+      &__label {
+        line-height: 16px!important;
+      }
+    }
+
+    .el-dialog {
+      &__header {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+      }
+
+      &__body {
+        padding: 10px 20px 20px;
+      }
+    }
+  }
+}
